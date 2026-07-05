@@ -5,7 +5,7 @@ A homelab project simulating a real network infrastructure using **VMware + Prox
 ---
 
 ## 📺 Demo Video
-▶️ [Watch on YouTube]([https://www.youtube.com/@ibrahimmejjadi](https://youtu.be/dC9JOtZYFDo))
+▶️ [Watch on YouTube](https://youtu.be/dC9JOtZYFDo)
 
 ---
 
