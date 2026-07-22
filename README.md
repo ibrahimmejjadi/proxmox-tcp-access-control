@@ -1,6 +1,6 @@
 # Proxmox TCP Access Control System
 
-A homelab project simulating a real network infrastructure using **VMware + Proxmox VE** and **Alpine Linux** virtual machines. A Python TCP socket server controls access to the network — checking a CSV user database and returning **YES** or **NO** to any client that requests a connection.
+A homelab project simulating a real network infrastructure using **VMware + Proxmox VE** and **Alpine Linux** virtual machines. A Python TCP socket server controls access to the network, checking a CSV user database and returning **YES** or **NO** to any client that requests a connection.
 
 ---
 
@@ -50,7 +50,7 @@ Client → sends username → Server → checks CSV → returns YES/NO
 | `server_script_100-1.py` | TCP socket server, reads CSV, handles access logic |
 | `client_script_102-1.py` | Client script, sends username, receives response |
 | `user_database.csv` | User database (id, username, role, privilege, status) |
-| `/etc/init.d/tcp-server` | OpenRC init script — auto-starts server on boot |
+| `/etc/init.d/tcp-server` | OpenRC init script: auto-starts server on boot |
 
 ---
 
@@ -101,5 +101,9 @@ rc-service tcp-server status
 
 ## 👨‍💻 Author
 
-**Ibrahim Mejjadi** — Digital Infrastructure Student, CMC Tangier 
-🔗 [LinkedIn](https://www.linkedin.com/in/ibrahimmejjadi) 
+**Ibrahim Mejjadi**: Digital Infrastructure Student, CMC Tangier
+
+🔗 LinkedIn: [linkedin.com/in/ibrahimmejjadi](https://linkedin.com/in/ibrahimmejjadi)
+
+📧 Email: ibrahim.mejjadi@gmail.com
+
